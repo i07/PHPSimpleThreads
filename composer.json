@@ -27,5 +27,6 @@
       "parallel-lint . --exclude vendor",
       "phpunit"
     ]
-  }
+  },
+  "minimum-stability": "stable"
 }
