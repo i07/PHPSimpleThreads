@@ -10,7 +10,7 @@ PHPSimpleThreads offers a simple way of starting and handling multiple php-cli p
 
 Installation via composer:
    
-   composer install i07/php-simple-threads
+    composer install i07/php-simple-threads
    
 ## Usage
 
