@@ -53,7 +53,7 @@ class Thread
             // still running
             return true;
         } else {
-            // no long running, we clean up
+            // no longer running, we clean up
             fclose($this->pipes[0]);
             fclose($this->pipes[1]);
             return false;
