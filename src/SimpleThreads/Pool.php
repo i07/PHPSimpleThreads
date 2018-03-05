@@ -22,9 +22,9 @@ class Pool
     /**
      * Pool constructor.
      *
-     * @param $commands
+     * @param array $commands
      */
-    public function __construct($commands) {
+    public function __construct(array $commands) {
         $this->commands = $commands;
     }
 

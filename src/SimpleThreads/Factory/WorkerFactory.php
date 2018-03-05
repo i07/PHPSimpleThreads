@@ -17,9 +17,9 @@ abstract class WorkerFactory
     /**
      * WorkerFactory constructor.
      *
-     * @param $description
+     * @param string $description
      */
-    public function __construct($description)
+    public function __construct(string $description)
     {
         // read data for worker
         $this->arguments = fread(STDIN,4096);
@@ -42,10 +42,10 @@ abstract class WorkerFactory
     /**
      * doWork
      *
-     * @param $arguments
+     * @param mixed $arguments
      * @return mixed
      */
-    public function doWork($arguments){
+    public function doWork(mixed $arguments){
         return $arguments;
     }
 }

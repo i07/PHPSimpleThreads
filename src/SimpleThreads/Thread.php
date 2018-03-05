@@ -28,7 +28,7 @@ class Thread
      * @param $command
      * @param $payload
      */
-    public function __construct($command, $payload) {
+    public function __construct(string $command, mixed $payload) {
         $this->thread = proc_open('php '.$command, $this->spec, $this->pipes, getcwd());
 
         if (is_resource($this->thread)) {
