@@ -5,7 +5,7 @@
 [![Latest Stable Version](https://poser.pugx.org/i07/php-simple-threads/v/stable)](https://packagist.org/packages/i07/php-simple-threads)
 [![License](https://poser.pugx.org/i07/php-simple-threads/license)](https://packagist.org/packages/i07/php-simple-threads)
 
-A very simplistic approach on parallel processing with PHP.
+A simplistic approach on parallel processing with PHP.
 
 PHPSimpleThreads offers a simple way of starting and handling multiple php-cli processes within your PHP application.
 
