@@ -4,7 +4,7 @@
 
 A very simplistic approach on parallel processing with PHP.
 
-PHPSimpleThreads offers a simple way of handling starting multiple php-cli processes within your PHP application.
+PHPSimpleThreads offers a simple way of starting and handling multiple php-cli processes within your PHP application.
 
 ## Installation
 
