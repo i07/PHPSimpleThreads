@@ -1,5 +1,6 @@
 # PHPSimpleThreads
 
+[![Total Downloads](https://poser.pugx.org/i07/php-simple-threads/downloads)](https://packagist.org/packages/i07/php-simple-threads)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg)](https://secure.php.net/)
 [![Latest Stable Version](https://poser.pugx.org/i07/php-simple-threads/v/stable)](https://packagist.org/packages/i07/php-simple-threads)
 [![License](https://poser.pugx.org/i07/php-simple-threads/license)](https://packagist.org/packages/i07/php-simple-threads)
