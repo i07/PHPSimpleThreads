@@ -2,16 +2,35 @@
 
 namespace SimpleThreads;
 
+/**
+ * Class Pool
+ *
+ * @package SimpleThreads
+ */
 class Pool
 {
+    /** @var array $commands */
     private $commands = [];
+
+    /** @var array $threads */
     private $threads = [];
+
+    /** @var array $output */
     private $output = [];
 
-    public function __construct($cmds) {
-        $this->commands = $cmds;
+
+    /**
+     * Pool constructor.
+     *
+     * @param $commands
+     */
+    public function __construct($commands) {
+        $this->commands = $commands;
     }
 
+    /**
+     * run
+     */
     public function run() {
 
         foreach($this->commands as $key => $cmd) {
@@ -52,6 +71,11 @@ class Pool
         } while ($threadsActive);
     }
 
+    /**
+     * getOutput
+     *
+     * @return array
+     */
     public function getOutput() {
         return $this->output;
     }
